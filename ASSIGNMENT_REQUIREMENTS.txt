@@ -1,0 +1,37 @@
+Objective:
+Develop a personal portfolio website using ReactJS based on the provided design mockup. The application should include user authentication with signup and login pages. After a successful login, users should be redirected to the portfolio page. The final application must be hosted on a platform like Vercel, Render, or Netlify.
+Requirements:
+1.	Authentication:
+○	Signup Page: Create a signup page where new users can create an account. The form should collect basic information such as username, email, and password.
+○	Login Page: Implement a login page where existing users can sign in using their credentials. Ensure proper validation and error handling for incorrect login attempts.
+○	Authentication Flow: Once logged in, users should be redirected to the portfolio page. Implement session management to maintain the logged-in state.
+2.	User Interface:
+○	Portfolio Page:
+■	Design the portfolio page as per the mockup provided in the image. It should include sections such as:
+■	Introduction Section: Display the user's name, profession, a brief introduction, and links to the resume, social media profiles, etc.
+■	Skills Section: List the user's skills with visual representations.
+■	Projects Section: Showcase projects with descriptions, images, and links to live demos or repositories.
+■	Contact Section: Include a contact form where users can send a message to the portfolio owner.
+■	Ensure that the design is responsive and closely matches the provided mockup, including light and dark themes.
+3.	Functionality:
+○	State Management: Use state management (e.g., useState, useReducer) to handle data within the application, including user authentication and portfolio content.
+○	Routing: Use React Router for navigation between pages such as the login page, signup page, and portfolio page.
+○	Form Handling: Implement form validation for both the signup and contact forms.
+○	Theme Toggle: Implement a feature that allows users to switch between light and dark themes.
+4.	Deployment:
+○	Hosting: Deploy the final application on Vercel, Render, Netlify, or a similar platform. Ensure the deployed application is fully functional and accessible via a public URL.
+○	Domain Name: (Optional) Consider setting up a custom domain for the portfolio website.
+Technical Specifications:
+●	Frontend: React JS (React Hooks, React Router for navigation)
+●	State Management: Use React's useState and useReducer hooks.
+●	Authentication: Implement basic authentication flow (signup/login/logout) using React or a suitable authentication library.
+●	Styling: Use CSS or a styling framework like Bootstrap or Material-UI. Ensure the design closely follows the provided mockup, including both light and dark themes.
+●	Version Control: Use Git for version control and maintain a well-documented commit history.
+Evaluation Criteria:
+●	Design Implementation: How closely does the portfolio page match the provided mockup?
+●	Functionality: Does the application meet the outlined requirements, including authentication, routing, and form handling?
+●	Code Quality: Is the code well-structured, commented, and maintainable?
+●	User Experience: How intuitive and responsive is the user interface?
+●	Deployment: Is the website successfully deployed and accessible via the provided URL?
+
+
